@@ -48,10 +48,10 @@ const NavBar = () => {
 
   return (
     <nav className='w-full px-5 lg:px-8 xl:px-[8%] py-3 flex items-center justify-between z-50'>
-      <a href="#logo">Cedrick</a>
+      <a href="#logo">Cedrick.Dev</a>
       <div className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-13 py-3 bg-white shadow-sm bg-opacity-50'>
         <a href="#Home">Home</a>
-        <a href="#About Me">About Me</a>
+        <a href="#About">About Me</a>
         <a href="#Services">Services</a>
         <a href="#Project">Projects</a>
       </div>
