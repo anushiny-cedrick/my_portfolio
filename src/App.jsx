@@ -5,6 +5,7 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Header from './components/header/Header'
 import AboutMe from './components/aboutMe/AboutMe'
+import Services from './components/services_sec/Services'
 function App() {
   
 
@@ -13,6 +14,7 @@ function App() {
     <NavBar />
     <Header/>
     <AboutMe />
+    <Services />
     </div>
   )
 }
