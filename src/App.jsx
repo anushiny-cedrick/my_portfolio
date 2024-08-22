@@ -8,6 +8,7 @@ import AboutMe from './components/aboutMe/AboutMe'
 import Services from './components/services_sec/Services'
 import Projetcs from './components/projects_dev/Projetcs'
 import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 function App() {
   
 
@@ -19,6 +20,7 @@ function App() {
     <Services />
     <Projetcs />
     <Contact />
+    <Footer />
     </div>
   )
 }
