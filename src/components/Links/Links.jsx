@@ -34,7 +34,7 @@ const Links = ({ isOpen, toggleSidebar }) => {
         <img src={close} alt="Close" className='w-7 cursor-pointer' />
       </div>
       <a href="#Home" onClick={toggleSidebar}>Home</a>
-      <a href="#About Me" onClick={toggleSidebar}>About Me</a>
+      <a href="#About" onClick={toggleSidebar}>About Me</a>
       <a href="#Services" onClick={toggleSidebar}>Services</a>
       <a href="#Project" onClick={toggleSidebar}>Projects</a>
     </div>

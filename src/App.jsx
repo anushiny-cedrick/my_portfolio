@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar'
 import Header from './components/header/Header'
 import AboutMe from './components/aboutMe/AboutMe'
 import Services from './components/services_sec/Services'
+import Projetcs from './components/projects_dev/Projetcs'
 function App() {
   
 
@@ -15,6 +16,7 @@ function App() {
     <Header/>
     <AboutMe />
     <Services />
+    <Projetcs />
     </div>
   )
 }
