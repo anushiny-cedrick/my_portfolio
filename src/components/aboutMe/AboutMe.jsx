@@ -6,6 +6,20 @@ import spss from "../../assets/spss-logo.png"
 import python from "../../assets/python.jpg"
 import vscode from "../../assets/vsCode.jpg"
 import terr from "../../assets/terr.png"
+import docker from "../../assets/docker.png"
+import git from "../../assets/git.png"
+import excel from "../../assets/excel.jpg"
+import jenkins from "../../assets/jenkins.png"
+import kubernetes from "../../assets/kubernestes.png"
+import react  from "../../assets/react.png"
+import R_logo from "../../assets/R_logo.png"
+import next from "../../assets/next.jpg"
+import power from "../../assets/power Bi.jpg"
+import numpy from "../../assets/numpy.png"
+import pandas from "../../assets/pandas.png"
+import sk_learn from "../../assets/sckit_learn.png"
+import tensor from "../../assets/tensor.png"
+import keras from "../../assets/keras.png"
 const AboutMe = () => {
   return (
     <div id="About" className='w-ful px-[12%] py-10 scrol-mt-20'>
@@ -40,21 +54,91 @@ const AboutMe = () => {
                     </li>
                 </ul>
                 <h4 className='my-6 text-gray-700'>Tools i used</h4>
-                <ul className='flex items-center gap-3 sm:gap-5'>
-                    <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
-                        <img src={aws} alt="" />
-                    </li>
-                    <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
-                        <img src={spss} alt="" />
-                    </li>
-                    <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
-                        <img src={terr} alt="" />
-                    </li>
-                    <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
-                        <img src={python} alt="" />
-                    </li>
+                {/* main tool i used in various div */}
+                <div>
+                    <div>
+                        <h3>DeVops Tools</h3>
+                    <ul className='flex items-center gap-3 sm:gap-5'>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={git} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={jenkins} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={terr} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={docker} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={kubernetes} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={aws} alt="" />
+                        </li> 
+                    </ul>
+                    </div>
+
+                    {/* data analysis */}
+                    <div >
+                        <h3>Data Analysis Tools</h3>
+                        <ul className='flex items-center gap-3 sm:gap-5'>
+
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={excel} alt="" />
+                        </li>
                     
-                </ul>
+
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={spss} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={R_logo} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                                <img src={python} alt="" />
+                            </li> 
+                        </ul>
+                    </div>
+                    {/* Web Development */}
+                    <div>
+                    <h3>Web Dvelopment</h3>
+                        <ul className='flex items-center gap-3 sm:gap-5'>
+
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={react} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={next} alt="" />
+                        </li>
+                        </ul>
+
+                    </div>
+                     {/* Machine and Deep learning tool */}
+
+                     <div>
+                     <h3>Machine and Deep learning </h3>
+                    <ul className='flex items-center gap-3 sm:gap-5'>
+
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={numpy} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={pandas} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={sk_learn} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={keras} alt="" className='w-10' />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={tensor} alt=""  className='w-50'/>
+                        </li>
+                    </ul>
+                     </div>
+                </div>
 
             </div>
         </div>
