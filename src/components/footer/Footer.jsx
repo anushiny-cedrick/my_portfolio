@@ -16,8 +16,8 @@ const Footer = () => {
         <p>@ Anushiny Cedrick 2024. All right reserved </p>
         <ul className='flex items-center justify-center gap-4 mt-4 sm:mt-0'>
             <li><a href="#"><img src={facebook} alt="" className='w-5' /></a></li>
-            <li><a href="#"><img src={linkin} alt="" className='w-8' /></a></li>
-            <li><a href="#"><img src={github} alt="" className='w-8' /></a></li>
+            <li><a href="https://www.linkedin.com/feed/"><img src={linkin} alt="" className='w-8' /></a></li>
+            <li><a href="https://github.com/anushiny-cedrick"><img src={github} alt="" className='w-8' /></a></li>
         </ul>
       </div>
     </div>
