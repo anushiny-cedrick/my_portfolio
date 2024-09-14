@@ -15,7 +15,7 @@ const Header = () => {
             loop: true,
           }}
         /> base in Cameroon.</h1>
-      <p className='max-w-2xl mx-auto'>An IT expert with a great passion in the feilds of Web-Development, Cloud, Machine learning, Deep Learning, Data Analysis and Data Secienc.</p>
+      <p className='max-w-2xl mx-auto'>An IT expert with a great passion in the feilds of Web-Development, Cloud & DevOps, Machine learning, Deep Learning, Data Analysis and Data Secienc.</p>
 
       <div className='flex flex-col sm:flex-row gap-4 mt-4'>
         <a href="#contact" className='px-4 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2'>Contact Me</a>

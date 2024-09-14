@@ -37,6 +37,12 @@ const Services = () => {
                 <p className='text-sm text-gray-600 leading-5'>web  design is a process of building</p>
                 <a href="" className='mt-5 text-sm'>Read more</a>
             </div>
+            <div className='border border-gray-400 rounded-lg px-6 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500'>
+                <h2>image</h2>
+                <h3 className='text-lg text-gray-700 my-4'>Data Science</h3>
+                <p className='text-sm text-gray-600 leading-5'>web  design is a process of building</p>
+                <a href="" className='mt-5 text-sm'>Read more</a>
+            </div>
             
 
         </div>

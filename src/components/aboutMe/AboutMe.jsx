@@ -20,6 +20,9 @@ import pandas from "../../assets/pandas.png"
 import sk_learn from "../../assets/sckit_learn.png"
 import tensor from "../../assets/tensor.png"
 import keras from "../../assets/keras.png"
+import prometheus from "../../assets/prometheus.png"
+import grafana from "../../assets/images.jpeg"
+import gitHubAction from "../../assets/githubAction.png"
 const AboutMe = () => {
   return (
     <div id="About" className='w-ful px-[12%] py-10 scrol-mt-20'>
@@ -66,6 +69,9 @@ const AboutMe = () => {
                             <img src={jenkins} alt="" />
                         </li>
                         <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={gitHubAction} alt="" />
+                        </li>
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
                             <img src={terr} alt="" />
                         </li>
                         <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
@@ -75,8 +81,16 @@ const AboutMe = () => {
                             <img src={kubernetes} alt="" />
                         </li>
                         <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={prometheus} alt="" />
+                        </li> 
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
+                            <img src={grafana} alt="" />
+                        </li> 
+                        
+                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
                             <img src={aws} alt="" />
                         </li> 
+
                     </ul>
                     </div>
 
